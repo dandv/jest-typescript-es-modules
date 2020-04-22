@@ -1,0 +1,17 @@
+{
+  "name": "jets",
+  "version": "1.0.0",
+  "description": "Jest with TypeScript generating ES Modules",
+  "license": "MIT",
+  "author": "dandv",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  }
+}
